@@ -23,14 +23,14 @@ const translations = {
     altcoinMarketCap: "Altcoin Market Cap",
     waitingForData: "Waiting for data",
     aiAnalysis: "AI Analysis",
-    generateAIPicks: "Generate AI Picks",
+    generateAIPicks: "Generate AI Cards",
     aiAnalyzing: "AI Analyzing...",
     aiRecommendations: "AI Recommendations",
     confidence: "Confidence",
     strategy: "Strategy",
     riskLevel: "Risk Level",
     expectedReturn: "Expected Return",
-    applyAIPicks: "Apply AI Picks"
+    applyAIPicks: "Apply AI Cards"
   },
   zh: {
     title: "加密货币仪表板",
