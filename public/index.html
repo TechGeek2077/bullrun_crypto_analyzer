@@ -7,9 +7,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="preload" href="https://s3.tradingview.com/tv.js" as="script">
-  <link rel="icon" type="image/png" href="/images/bull.png">
+  <link rel="icon" type="image/png" href="images/bull.png">
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js" async></script>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	
@@ -32,10 +32,12 @@
       </defs>
     </svg>
     <input type="text" id="search" placeholder="Search cryptocurrency...">
-    <button id="lang-switch" class="btn">Switch to Chinese</button>
-    <button class="play-bullrun-btn btn">Play Bullrun</button>
-    <button id="pro-mode-btn" class="btn">Pro Mode</button>
-    <button id="ai-generate-btn" class="btn ai-btn">Generate AI Picks</button>
+    <div class="header-buttons">
+      <button id="lang-switch" class="btn">Switch to Chinese</button>
+      <button class="play-bullrun-btn btn">Play Bullrun</button>
+      <button id="pro-mode-btn" class="btn">Pro Mode</button>
+      <button id="ai-generate-btn" class="btn ai-btn">Generate AI Picks</button>
+    </div>
   </header>
   <div class="burger-menu">
     <span></span>
@@ -95,6 +97,7 @@
       </div>
     </div>
   </div>
-  <script src="/script.js"></script>
+  <script src="gemini-ai.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
